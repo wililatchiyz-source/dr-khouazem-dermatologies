@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr" id="html-root">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cabinet Dr. Khouazem — Dermatologie · Boumerdès</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="lang-fr" id="body-root">
+
+<!-- LANG BAR -->
+<div class="lang-bar" style="position:fixed;top:0;left:0;right:0;z-index:200">
+  <div class="container">
+    <div class="lang-bar-inner">
+      <button class="lang-btn active" onclick="setLang('fr')">🇫🇷 FR</button>
+      <button class="lang-btn" onclick="setLang('en')">🇬🇧 EN</button>
+      <button class="lang-btn" onclick="setLang('ar')">🇩🇿 عربي</button>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-name">Dr. Khouazem</div>
+        <div class="nav-logo-sub">
+          <span class="fr">Dermatologie · Boumerdès</span>
+          <span class="en">Dermatology · Boumerdès</span>
+          <span class="ar">طب الجلدية · بومرداس</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#about"><span class="fr">À propos</span><span class="en">About</span><span class="ar">عنا</span></a>
+        <a href="#services"><span class="fr">Services</span><span class="en">Services</span><span class="ar">خدمات</span></a>
+        <a href="#videos"><span class="fr">Vidéos</span><span class="en">Videos</span><span class="ar">فيديوهات</span></a>
+        <a href="#gallery"><span class="fr">Cabinet</span><span class="en">Clinic</span><span class="ar">العيادة</span></a>
+        <a href="#rdv"><span class="fr">Contact</span><span class="en">Contact</span><span class="ar">اتصل بنا</span></a>
+      </div>
+      <div class="nav-cta">
+        <a href="#rdv" class="btn btn-primary">
+          <span class="fr">Prendre RDV</span>
+          <span class="en">Book Appointment</span>
+          <span class="ar">احجز موعد</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="hero-eyebrow-line"></div>
+        <span class="hero-eyebrow-txt">
+          <span class="fr">Cabinet de Dermatologie · Boumerdès</span>
+          <span class="en">Dermatology Clinic · Boumerdès</span>
+          <span class="ar">عيادة طب الجلدية · بومرداس</span>
+        </span>
+      </div>
+      <h1>
+        <span class="fr-b">Votre peau mérite<br/><em>les meilleurs soins</em></span>
+        <span class="en-b">Your skin deserves<br/><em>the best care</em></span>
+        <span class="ar-b" style="font-family:'Tajawal',sans-serif">بشرتك تستحق<br/><em>أفضل رعاية</em></span>
+      </h1>
+      <p class="hero-desc">
+        <span class="fr">Le Dr. Khouazem vous accueille dans un cabinet moderne et équipé pour diagnostiquer et traiter toutes les affections cutanées avec précision et bienveillance.</span>
+        <span class="en">Dr. Khouazem welcomes you in a modern, fully-equipped clinic to diagnose and treat all skin conditions with precision and care.</span>
+        <span class="ar" style="font-family:'Tajawal',sans-serif">يرحب بكم الدكتور خوازم في عيادة حديثة ومجهزة لتشخيص وعلاج جميع أمراض الجلد بدقة وعناية.</span>
+      </p>
+      <div class="hero-actions">
+        <a href="#rdv" class="btn btn-primary">
+          <span class="fr">Prendre rendez-vous</span>
+          <span class="en">Book Appointment</span>
+          <span class="ar">احجز موعدك</span>
+          <span class="arr"></span>
+        </a>
+        <a href="#services" class="btn btn-ghost">
+          <span class="fr">Nos services</span>
+          <span class="en">Our services</span>
+          <span class="ar">خدماتنا</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats container">
+    <div class="hero-stats-inner">
+      <div class="hero-stat">
+        <div class="hero-stat-n">12+</div>
+        <div class="hero-stat-l"><span class="fr">Ans d'expérience</span><span class="en">Years experience</span><span class="ar">سنوات خبرة</span></div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">4 800+</div>
+        <div class="hero-stat-l"><span class="fr">Patients traités</span><span class="en">Patients treated</span><span class="ar">مريض تمت معالجتهم</span></div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">98%</div>
+        <div class="hero-stat-l"><span class="fr">Satisfaction</span><span class="en">Satisfaction</span><span class="ar">رضا المرضى</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BAND -->
+<div class="band">
+  <div class="band-track">
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Consultation Dermatologique</span><span class="en">Dermatology Consultation</span><span class="ar">استشارة جلدية</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Traitement de l'Acné</span><span class="en">Acne Treatment</span><span class="ar">علاج حب الشباب</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Dermatologie Pédiatrique</span><span class="en">Pediatric Dermatology</span><span class="ar">طب جلدية الأطفال</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Laser & Esthétique</span><span class="en">Laser & Aesthetics</span><span class="ar">ليزر وتجميل</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Maladies de Peau</span><span class="en">Skin Diseases</span><span class="ar">أمراض الجلد</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Consultation Dermatologique</span><span class="en">Dermatology Consultation</span><span class="ar">استشارة جلدية</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Traitement de l'Acné</span><span class="en">Acne Treatment</span><span class="ar">علاج حب الشباب</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Dermatologie Pédiatrique</span><span class="en">Pediatric Dermatology</span><span class="ar">طب جلدية الأطفال</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Laser & Esthétique</span><span class="en">Laser & Aesthetics</span><span class="ar">ليزر وتجميل</span></span>
+    <span class="band-item"><span class="band-dot"></span><span class="fr">Maladies de Peau</span><span class="en">Skin Diseases</span><span class="ar">أمراض الجلد</span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-img-main">
+          <img src="images/about.jpg" alt="Dr. Khouazem" style="object-fit:cover;object-position:center top"/>
+        </div>
+        <div class="about-img-accent">
+          <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=400&q=85&fit=crop" alt="Cabinet"/>
+        </div>
+        <div class="about-badge">
+          <span class="about-badge-dot"></span>
+          <span class="fr">Disponible aujourd'hui</span><span class="en">Available today</span><span class="ar">متاح اليوم</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="tag"><span class="fr">À propos du médecin</span><span class="en">About the doctor</span><span class="ar">عن الطبيب</span></span>
+        <h2>
+          <span class="fr-b">Une expertise <em>reconnue</em> au service de votre peau</span>
+          <span class="en-b">Recognized expertise <em>serving</em> your skin</span>
+          <span class="ar-b">خبرة معترف بها <em>لصحة</em> بشرتك</span>
+        </h2>
+        <p>
+          <span class="fr">Le Dr. Khouazem est spécialiste en dermatologie avec plus de 12 ans d'expérience clinique. Il exerce à Boumerdès avec une approche centrée sur le patient.</span>
+          <span class="en">Dr. Khouazem is a dermatology specialist with over 12 years of clinical experience, practicing in Boumerdès with a patient-centered approach.</span>
+          <span class="ar" style="font-family:'Tajawal',sans-serif">الدكتور خوازم متخصص في طب الجلدية مع أكثر من 12 سنة من الخبرة السريرية. يمارس مهنته في بومرداس باتباع نهج يركز على المريض.</span>
+        </p>
+        <div class="about-features reveal reveal-delay-1">
+          <div class="about-feat"><div class="about-feat-icon">🎓</div><div><div class="about-feat-title"><span class="fr">Diplômé CHU Béni Messous</span><span class="en">CHU Béni Messous Graduate</span><span class="ar">خريج المستشفى الجامعي بني مسوس</span></div><div class="about-feat-text"><span class="fr">Spécialiste certifié</span><span class="en">Certified specialist</span><span class="ar">متخصص معتمد</span></div></div></div>
+          <div class="about-feat"><div class="about-feat-icon">🔬</div><div><div class="about-feat-title"><span class="fr">Équipement moderne</span><span class="en">Modern equipment</span><span class="ar">تجهيزات حديثة</span></div><div class="about-feat-text"><span class="fr">Diagnostic dermatoscopique</span><span class="en">Dermatoscopic diagnosis</span><span class="ar">تشخيص جلدي دقيق</span></div></div></div>
+          <div class="about-feat"><div class="about-feat-icon">💉</div><div><div class="about-feat-title"><span class="fr">Skin Booster</span><span class="en">Skin Booster</span><span class="ar">سكين بوستر</span></div><div class="about-feat-text"><span class="fr">Traitement esthétique avancé</span><span class="en">Advanced aesthetic treatment</span><span class="ar">علاج تجميلي متطور</span></div></div></div>
+          <div class="about-feat"><div class="about-feat-icon">⚡</div><div><div class="about-feat-title"><span class="fr">File d'attente digitale</span><span class="en">Digital queue system</span><span class="ar">نظام انتظار رقمي</span></div><div class="about-feat-text"><span class="fr">Suivi en temps réel</span><span class="en">Real-time tracking</span><span class="ar">متابعة لحظية</span></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEOS -->
+<section class="videos-section" id="videos">
+  <div class="container">
+    <h2 class="reveal">
+      <span class="fr">Nos procédures <em style="font-style:italic;color:var(--accent)">en action</em></span>
+      <span class="en">Our procedures <em style="font-style:italic;color:var(--accent)">in action</em></span>
+      <span class="ar" style="font-family:'Tajawal',sans-serif">إجراءاتنا <em style="font-style:normal;color:var(--accent)">العلاجية</em></span>
+    </h2>
+    <p class="sub reveal reveal-delay-1">
+      <span class="fr">Découvrez nos traitements dermatologiques de pointe</span>
+      <span class="en">Discover our cutting-edge dermatological treatments</span>
+      <span class="ar" style="font-family:'Tajawal',sans-serif">اكتشف علاجاتنا الجلدية المتطورة</span>
+    </p>
+    <div class="videos-grid">
+      <div class="video-card reveal">
+        <video controls muted loop playsinline poster="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80&fit=crop">
+          <source src="videos/video-1.mp4" type="video/mp4"/>
+        </video>
+        <div class="video-card-label">
+          <h3><span class="fr">Traitement de l'acné</span><span class="en">Acne Treatment</span><span class="ar" style="font-family:'Tajawal',sans-serif">علاج حب الشباب</span></h3>
+          <p><span class="fr">Protocole médical personnalisé</span><span class="en">Personalized medical protocol</span><span class="ar" style="font-family:'Tajawal',sans-serif">بروتوكول طبي مخصص</span></p>
+        </div>
+      </div>
+      <div class="video-card reveal reveal-delay-1">
+        <video controls muted loop playsinline poster="https://images.unsplash.com/photo-1551601651-09492b5468b6?w=600&q=80&fit=crop">
+          <source src="videos/video-2.mp4" type="video/mp4"/>
+        </video>
+        <div class="video-card-label">
+          <h3><span class="fr">Skin Booster</span><span class="en">Skin Booster</span><span class="ar" style="font-family:'Tajawal',sans-serif">سكين بوستر</span></h3>
+          <p><span class="fr">Hydratation et éclat de la peau</span><span class="en">Hydration & skin radiance</span><span class="ar" style="font-family:'Tajawal',sans-serif">ترطيب وإشراق البشرة</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="services-head">
+      <h2>
+        <span class="fr-b">Nos <em>spécialités</em><br/>dermatologiques</span>
+        <span class="en-b">Our dermatological<br/><em>specialties</em></span>
+        <span class="ar-b">تخصصاتنا<br/><em>الجلدية</em></span>
+      </h2>
+      <a href="#rdv" class="btn btn-ghost"><span class="fr">Consulter</span><span class="en">Consult</span><span class="ar">استشر</span> <span class="arr"></span></a>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card reveal"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80&fit=crop" alt=""/><div class="svc-card-body"><div class="svc-num">01</div><div class="svc-icon">🩺</div><div class="svc-title"><span class="fr">Consultation générale</span><span class="en">General consultation</span><span class="ar">استشارة عامة</span></div><div class="svc-desc"><span class="fr">Diagnostic et traitement de toutes les affections cutanées.</span><span class="en">Diagnosis and treatment of all skin conditions.</span><span class="ar">تشخيص وعلاج جميع أمراض الجلد.</span></div></div></div>
+      <div class="svc-card reveal reveal-delay-1"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80&fit=crop" alt=""/><div class="svc-card-body"><div class="svc-num">02</div><div class="svc-icon">✨</div><div class="svc-title"><span class="fr">Traitement de l'acné</span><span class="en">Acne treatment</span><span class="ar">علاج حب الشباب</span></div><div class="svc-desc"><span class="fr">Protocoles médicaux personnalisés pour tous types d'acné.</span><span class="en">Personalized medical protocols for all acne types.</span><span class="ar">بروتوكولات طبية مخصصة لجميع أنواع حب الشباب.</span></div></div></div>
+      <div class="svc-card reveal reveal-delay-2"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80&fit=crop" alt=""/><div class="svc-card-body"><div class="svc-num">03</div><div class="svc-icon">💡</div><div class="svc-title"><span class="fr">Laser & esthétique</span><span class="en">Laser & aesthetics</span><span class="ar">ليزر وتجميل</span></div><div class="svc-desc"><span class="fr">Traitements laser pour taches, cicatrices et rajeunissement.</span><span class="en">Laser treatments for spots, scars and rejuvenation.</span><span class="ar">علاجات الليزر للبقع والندوب والتجديد الجلدي.</span></div></div></div>
+      <div class="svc-card reveal"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80&fit=crop" alt=""/><div class="svc-card-body"><div class="svc-num">04</div><div class="svc-icon">👶</div><div class="svc-title"><span class="fr">Dermatologie pédiatrique</span><span class="en">Pediatric dermatology</span><span class="ar">جلدية الأطفال</span></div><div class="svc-desc"><span class="fr">Prise en charge spécialisée des enfants et nourrissons.</span><span class="en">Specialized care for children and infants.</span><span class="ar">رعاية متخصصة للأطفال والرضع.</span></div></div></div>
+      <div class="svc-card reveal reveal-delay-1"><img src="https://images.unsplash.com/photo-1588776814546-1ffbb1f4abb7?w=600&q=80&fit=crop" alt=""/><div class="svc-card-body"><div class="svc-num">05</div><div class="svc-icon">💉</div><div class="svc-title"><span class="fr">Skin Booster</span><span class="en">Skin Booster</span><span class="ar">سكين بوستر</span></div><div class="svc-desc"><span class="fr">Hydratation profonde et éclat de la peau.</span><span class="en">Deep hydration and skin radiance.</span><span class="ar">ترطيب عميق وإشراق البشرة.</span></div></div></div>
+      <div class="svc-card reveal reveal-delay-2"><img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80&fit=crop" alt=""/><div class="svc-card-body"><div class="svc-num">06</div><div class="svc-icon">🔬</div><div class="svc-title"><span class="fr">Chirurgie dermatologique</span><span class="en">Dermatological surgery</span><span class="ar">الجراحة الجلدية</span></div><div class="svc-desc"><span class="fr">Exérèse de grains de beauté, kystes et tumeurs cutanées.</span><span class="en">Removal of moles, cysts and skin tumors.</span><span class="ar">إزالة الشامات والأكياس والأورام الجلدية.</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="gallery-head reveal">
+      <span class="tag"><span class="fr">Notre cabinet</span><span class="en">Our clinic</span><span class="ar">عيادتنا</span></span>
+      <h2><span class="fr-b">Un environnement soigné<br/>pour votre confort</span><span class="en-b">A refined environment<br/>for your comfort</span><span class="ar-b">بيئة راقية<br/>لراحتكم</span></h2>
+      <p><span class="fr">Boumerdès · Coop El Istiqlal, Oued Tarreg</span><span class="en">Boumerdès · Coop El Istiqlal, Oued Tarreg</span><span class="ar">بومرداس · كوب الاستقلال، واد طارق</span></p>
+    </div>
+    <div class="gallery-mosaic">
+      <div class="g-item g1"><img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=85&fit=crop" alt=""/></div>
+      <div class="g-item g2"><img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&q=85&fit=crop" alt=""/></div>
+      <div class="g-item g3"><img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=600&q=85&fit=crop" alt=""/></div>
+      <div class="g-item g4"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=700&q=85&fit=crop" alt=""/></div>
+      <div class="g-item g5"><img src="https://images.unsplash.com/photo-1551601651-09492b5468b6?w=500&q=85&fit=crop" alt=""/></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="process-inner">
+      <div class="process-img reveal">
+        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=85&fit=crop" alt=""/>
+        <div class="process-img-overlay"></div>
+        <div class="process-img-caption">
+          <h3><span class="fr">Un suivi personnalisé</span><span class="en">Personalized follow-up</span><span class="ar">متابعة شخصية</span></h3>
+          <p><span class="fr">Chaque patient bénéficie d'un protocole adapté</span><span class="en">Each patient receives a tailored protocol</span><span class="ar">كل مريض يحصل على بروتوكول مخصص</span></p>
+        </div>
+      </div>
+      <div>
+        <span class="tag reveal"><span class="fr">Comment ça marche</span><span class="en">How it works</span><span class="ar">كيف يعمل</span></span>
+        <h2 class="reveal" style="font-family:'Playfair Display',serif;font-size:clamp(1.6rem,2.5vw,2.1rem);margin-bottom:28px;line-height:1.2">
+          <span class="fr-b">Votre parcours en<br/><em style="color:var(--blue)">4 étapes simples</em></span>
+          <span class="en-b">Your journey in<br/><em style="color:var(--blue)">4 simple steps</em></span>
+          <span class="ar-b" style="font-family:'Tajawal',sans-serif">رحلتك في<br/><em style="color:var(--blue)">4 خطوات بسيطة</em></span>
+        </h2>
+        <div>
+          <div class="process-step reveal"><div class="process-step-num">01</div><div><div class="process-step-title"><span class="fr">Prise de RDV en ligne</span><span class="en">Online appointment</span><span class="ar">حجز موعد عبر الإنترنت</span></div><div class="process-step-desc"><span class="fr">Via notre formulaire ou WhatsApp. Confirmation immédiate.</span><span class="en">Via our form or WhatsApp. Immediate confirmation.</span><span class="ar">عبر نموذجنا أو واتساب. تأكيد فوري.</span></div></div></div>
+          <div class="process-step reveal reveal-delay-1"><div class="process-step-num">02</div><div><div class="process-step-title"><span class="fr">File d'attente digitale</span><span class="en">Digital queue</span><span class="ar">قائمة الانتظار الرقمية</span></div><div class="process-step-desc"><span class="fr">Recevez votre ticket par WhatsApp et suivez votre tour sur votre téléphone.</span><span class="en">Receive your ticket via WhatsApp and track your turn on your phone.</span><span class="ar">استلم تذكرتك عبر واتساب وتابع دورك على هاتفك.</span></div></div></div>
+          <div class="process-step reveal reveal-delay-2"><div class="process-step-num">03</div><div><div class="process-step-title"><span class="fr">Consultation & diagnostic</span><span class="en">Consultation & diagnosis</span><span class="ar">الاستشارة والتشخيص</span></div><div class="process-step-desc"><span class="fr">Le Dr. Khouazem vous examine avec soin et établit un diagnostic précis.</span><span class="en">Dr. Khouazem examines you carefully and establishes a precise diagnosis.</span><span class="ar">يفحصك الدكتور خوازم بعناية ويضع تشخيصاً دقيقاً.</span></div></div></div>
+          <div class="process-step reveal reveal-delay-3"><div class="process-step-num">04</div><div><div class="process-step-title"><span class="fr">Ordonnance & suivi</span><span class="en">Prescription & follow-up</span><span class="ar">الوصفة والمتابعة</span></div><div class="process-step-desc"><span class="fr">Ordonnance bilingue FR/AR et dossier patient numérique créé.</span><span class="en">Bilingual FR/AR prescription and digital patient file created.</span><span class="ar">وصفة ثنائية اللغة وملف رقمي للمريض.</span></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <h2 class="reveal">
+      <span class="fr">Ce que disent <em style="font-style:italic;color:var(--accent)">nos patients</em></span>
+      <span class="en">What our <em style="font-style:italic;color:var(--accent)">patients say</em></span>
+      <span class="ar" style="font-family:'Tajawal',sans-serif">ما يقوله <em style="color:var(--accent)">مرضانا</em></span>
+    </h2>
+    <div class="testi-grid">
+      <div class="testi-card reveal"><div class="testi-stars">★★★★★</div><p class="testi-text"><span class="fr">"Médecin très professionnel et à l'écoute. Le traitement de mon acné a été efficace en moins d'un mois."</span><span class="en">"Very professional doctor. My acne treatment was effective in less than a month."</span><span class="ar" style="font-family:'Tajawal',sans-serif">"طبيب محترف جداً ومنصت. علاج حب الشباب كان فعالاً في أقل من شهر."</span></p><div class="testi-author"><div class="testi-avatar">SA</div><div><div class="testi-name">Sara A.</div><div class="testi-loc">Boumerdès</div></div></div></div>
+      <div class="testi-card reveal reveal-delay-1"><div class="testi-stars">★★★★★</div><p class="testi-text"><span class="fr">"J'ai amené mon fils pour de l'eczéma. Le Dr. Khouazem a été très doux. Résultats visibles après 2 semaines."</span><span class="en">"I brought my son for eczema. Dr. Khouazem was very gentle. Results visible after 2 weeks."</span><span class="ar" style="font-family:'Tajawal',sans-serif">"أحضرت ابني للأكزيما. الدكتور خوازم كان لطيفاً جداً. نتائج مرئية بعد أسبوعين."</span></p><div class="testi-author"><div class="testi-avatar">KM</div><div><div class="testi-name">Karima M.</div><div class="testi-loc">Azazga</div></div></div></div>
+      <div class="testi-card reveal reveal-delay-2"><div class="testi-stars">★★★★★</div><p class="testi-text"><span class="fr">"Le skin booster a transformé ma peau ! Résultats incroyables dès la première séance."</span><span class="en">"The skin booster transformed my skin! Incredible results from the first session."</span><span class="ar" style="font-family:'Tajawal',sans-serif">"السكين بوستر غيّر بشرتي! نتائج مذهلة من الجلسة الأولى."</span></p><div class="testi-author"><div class="testi-avatar">YB</div><div><div class="testi-name">Yasmine B.</div><div class="testi-loc">Boghni</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RDV -->
+<section class="rdv-section" id="rdv">
+  <div class="container">
+    <div class="rdv-box reveal">
+      <div class="rdv-left">
+        <h2>
+          <span class="fr-b">Prenez rendez-vous<br/><em>dès aujourd'hui</em></span>
+          <span class="en-b">Book your appointment<br/><em>today</em></span>
+          <span class="ar-b">احجز موعدك<br/><em>اليوم</em></span>
+        </h2>
+        <p>
+          <span class="fr">Confirmation sous 24h. Consultation sur place à Boumerdès.</span>
+          <span class="en">Confirmation within 24h. In-person consultation in Boumerdès.</span>
+          <span class="ar" style="font-family:'Tajawal',sans-serif">تأكيد خلال 24 ساعة. استشارة في العيادة ببومرداس.</span>
+        </p>
+        <div class="rdv-info">
+          <div class="rdv-info-item"><span>📍</span><span>Coop El Istiqlal, Oued Tarreg, Boumerdès B12 N4</span></div>
+          <div class="rdv-info-item"><span>📞</span><span>+213 XX XX XX XX</span></div>
+          <div class="rdv-info-item"><span>🕐</span><span><span class="fr">Sam – Jeu : 8h00 – 17h00</span><span class="en">Sat – Thu: 8:00 AM – 5:00 PM</span><span class="ar">السبت – الخميس: 8:00 – 17:00</span></span></div>
+          <div class="rdv-info-item"><span>💬</span><span>WhatsApp</span></div>
+        </div>
+      </div>
+      <div class="rdv-right">
+        <h3><span class="fr">Formulaire de rendez-vous</span><span class="en">Appointment Form</span><span class="ar">نموذج الحجز</span></h3>
+        <div class="form-row">
+          <div class="form-group"><label class="form-label"><span class="fr">Prénom</span><span class="en">First name</span><span class="ar">الاسم</span></label><input class="form-input" type="text"/></div>
+          <div class="form-group"><label class="form-label"><span class="fr">Nom</span><span class="en">Last name</span><span class="ar">اللقب</span></label><input class="form-input" type="text"/></div>
+        </div>
+        <div class="form-group"><label class="form-label"><span class="fr">Téléphone</span><span class="en">Phone</span><span class="ar">الهاتف</span></label><input class="form-input" type="tel" placeholder="+213 6XX XX XX XX"/></div>
+        <div class="form-group"><label class="form-label"><span class="fr">Motif</span><span class="en">Reason</span><span class="ar">السبب</span></label>
+          <select class="form-input">
+            <option><span class="fr">Consultation générale</span><span class="en">General consultation</span></option>
+            <option>Acné / Acne / حب الشباب</option>
+            <option>Skin Booster</option>
+            <option>Laser</option>
+            <option><span class="fr">Autre</span><span class="en">Other</span></option>
+          </select>
+        </div>
+        <div class="form-group"><textarea class="form-input" rows="2" placeholder="..."></textarea></div>
+        <button class="form-submit" onclick="this.textContent='✓';this.style.background='#2e8b57'">
+          <span class="fr">Envoyer →</span><span class="en">Send →</span><span class="ar">إرسال →</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">Dr. Khouazem</div>
+        <div class="footer-brand-sub"><span class="fr">Dermatologie · Boumerdès</span><span class="en">Dermatology · Boumerdès</span><span class="ar">طب الجلدية · بومرداس</span></div>
+        <p class="footer-brand-desc"><span class="fr">Cabinet moderne offrant des soins cutanés de qualité à Boumerdès depuis plus de 12 ans.</span><span class="en">Modern clinic providing quality skin care in Boumerdès for over 12 years.</span><span class="ar" style="font-family:'Tajawal',sans-serif">عيادة حديثة تقدم رعاية جلدية متميزة في بومرداس منذ أكثر من 12 سنة.</span></p>
+      </div>
+      <div>
+        <div class="footer-col-title"><span class="fr">Navigation</span><span class="en">Navigation</span><span class="ar">روابط</span></div>
+        <div class="footer-links">
+          <a href="#about"><span class="fr">À propos</span><span class="en">About</span><span class="ar">عنا</span></a>
+          <a href="#services"><span class="fr">Services</span><span class="en">Services</span><span class="ar">خدمات</span></a>
+          <a href="#videos"><span class="fr">Vidéos</span><span class="en">Videos</span><span class="ar">فيديوهات</span></a>
+          <a href="#rdv"><span class="fr">Rendez-vous</span><span class="en">Appointment</span><span class="ar">حجز موعد</span></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-item"><span>📍</span><span class="footer-contact-text">Coop El Istiqlal, Oued Tarreg<br/>Boumerdès B12 N4, Algérie</span></div>
+        <div class="footer-contact-item"><span>📞</span><span class="footer-contact-text">+213 XX XX XX XX</span></div>
+        <div class="footer-contact-item"><span>🕐</span><span class="footer-contact-text"><span class="fr">Sam – Jeu : 8h00 – 17h00</span><span class="en">Sat – Thu: 8AM – 5PM</span><span class="ar">السبت – الخميس: 8:00 – 17:00</span></span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 Cabinet Dr. Khouazem</div>
+      <div class="footer-copy">WAL Digital · Boumerdès</div>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
